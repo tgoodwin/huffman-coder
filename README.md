@@ -3,9 +3,9 @@
 Java program *visually encodes* text using the Huffman process. Written in 2014 as a Data Structures project at Columbia.
 
 TO RUN: to compress provided example text file, type the following into the console (after compiling)
-
+```
 java HuffmanTreeTest text.txt
-
+```
 ##Classes
 
 BinaryHeap.java is Weiss's Binary Heap implementation. I have modified it to contain a getSize method.
@@ -34,6 +34,7 @@ HuffmanTreeTest will take in a text file specified by the user and print out to 
 
 HuffmanTreeTest takes in a text file (.txt) in the command line.
 For example, if your desired file is called text.txt (the example included in my submission), then the command to run the program will look like this:
-
+```
 java HuffmanTreeTest text.txt
+```
 ![interface] (/huff1.png)
